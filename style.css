@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Mono:wght@300;400;500&family=Vazirmatn:wght@400;500&display=swap');
+
+.pirma {
+    background: #fec107;
+    border: 1px solid #fec107;
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-family: 'Vazirmatn', sans-serif;
+    width: 900px;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+.rusva {
+    background: #e5ae30;
+}
+
+.pirma th {
+    padding: 20px;
+}
+
+.pirma td {
+    color: white;
+    padding: 5px;
+    background: #382c6e;
+    border: #fec107 2px solid;
+    padding: 20px;
+    font-weight: 400;
+
+}
+
+.antra {
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 800px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.antra th {
+    font-family: 'Roboto Mono',
+        monospace;
+    text-align: left;
+}
+
+.antra th,
+.antra td {
+    border: solid white 3px;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.antra tr:nth-of-type(even) {
+    background: #f37ecf;
+}
+
+.antra tr:nth-of-type(odd) {
+    background: #af5593;
+}
+
+.antra th {
+    background: #860070;
+}
+
+.trecia {
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 850px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.trecia td,
+.trecia th {
+    border: 4px solid black;
+    padding: 10px;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.trecia th {
+    width: 60%;
+}
+
+.trecia td {
+    width: 40%;
+}
+
+.orange {
+    background: #fea500;
+    color: white;
+}
+
+.blue {
+    background: #4f4fff;
+    color: white;
+}
+
+.green {
+    background: #17c03b;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
